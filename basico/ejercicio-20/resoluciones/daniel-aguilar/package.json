@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-20",
+  "version": "1.0.0",
+  "description": "Basico ejercicio 20 - daniel-aguilar",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "license": "ISC"
+}
