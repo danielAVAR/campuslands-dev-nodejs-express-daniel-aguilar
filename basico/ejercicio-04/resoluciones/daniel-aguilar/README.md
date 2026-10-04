@@ -23,7 +23,7 @@ Servidor en `http://localhost:3000` (configurable con `PORT`).
 
 ## Cómo se activa ES Modules
 
-En `package.json` se declara `"type": "module"`. Con eso los archivos `.js` se tratan como ES Modules.
+`package.json` se declara `"type": "module"`. Con eso los archivos `.js` se tratan como ES Modules.
 
 | Concepto | Dónde se ve |
 | --- | --- |
