@@ -1,10 +1,23 @@
 {
-  "name": "ejercicio-07",
+  "name": "ejercicio-07-process-argv-cli",
   "version": "1.0.0",
-  "description": "Basico ejercicio 07 - daniel-aguilar",
-  "main": "src/app.js",
+  "description": "API y CLI de autos de lujo para practicar process.argv",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "cli": "node src/cli.js",
+    "test": "node --test"
   },
-  "license": "ISC"
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Daniel Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "bin": {
+    "autos": "src/cli.js"
+  }
 }
