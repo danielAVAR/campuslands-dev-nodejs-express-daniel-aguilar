@@ -1,10 +1,22 @@
 {
-  "name": "ejercicio-02",
+  "name": "ejercicio-02-npm-scripts",
   "version": "1.0.0",
-  "description": "Basico ejercicio 02 - daniel-aguilar",
-  "main": "src/app.js",
+  "description": "API de shooters competitivos para practicar npm scripts y package.json",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/app.js"
+    "check": "node --check src/app.js && node --check src/server.js",
+    "prestart": "npm run check",
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
   },
-  "license": "ISC"
+  "keywords": ["node", "express", "npm-scripts", "shooters"],
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Daniel Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
