@@ -1,10 +1,19 @@
 {
-  "name": "ejercicio-26",
+  "name": "ejercicio-26-codigos-estado",
   "version": "1.0.0",
-  "description": "Basico ejercicio 26 - daniel-aguilar",
-  "main": "src/app.js",
+  "description": "API de shooters competitivos para practicar codigos de estado HTTP",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
   },
-  "license": "ISC"
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Daniel Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
