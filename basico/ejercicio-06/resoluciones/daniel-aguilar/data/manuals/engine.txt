@@ -1,0 +1,3 @@
+MOTOR
+Cambiar aceite cada 3000 km.
+Revisar bujia cada 6000 km.

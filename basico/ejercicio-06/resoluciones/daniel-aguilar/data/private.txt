@@ -1,0 +1,1 @@
+ARCHIVO PRIVADO: no debe poder leerse desde la API.

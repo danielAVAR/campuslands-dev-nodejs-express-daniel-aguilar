@@ -1,0 +1,3 @@
+CADENA
+Lubricar cada 500 km.
+Tension: 20 a 30 mm de holgura.
